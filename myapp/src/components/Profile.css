@@ -1,0 +1,61 @@
+/* src/components/Profile.css */
+
+.centered-box-personal-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures it covers the full viewport height */
+  }
+  
+  .inner-box-personal-info {
+    align-items: center;
+    width: 40%; /* Increase the width for a larger form */
+    height: 60vh; /* Increase the height for a larger form */
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #77e275;
+    box-shadow: 10px 10px 20px black;
+  }
+  
+  .form-group-personal-info {
+    font-family: roboto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .a-personal-info {
+    text-align: center;
+    justify-content: center; /* Horizontally center the button */
+    align-items: center; /* Vertically center the button */
+    
+  }
+
+  
+  .submit-personal-info {
+    font-size:18px;
+    font-weight:700px;
+    border-radius:3px;
+    padding:12px 20px;
+    margin:50px;
+    border-color: black;
+    color:white;
+    background-color: #333;
+    font-family: roboto;
+  }
+  
+  .name-personal-info,
+  .image-personal-info,
+  .price-personal-info,
+  .info-personal-info {
+    font-family: roboto;
+    font-size: 18px; /* Increase font size for input fields */
+    font-weight: 500; /* Increase font weight */
+    border-radius: 3px; /* Slightly rounder corners */
+    margin-top: 20px;
+    color: black;
+    border-radius: 10px; /* Rounded corners */
+    text-align: center;
+    justify-content: center;
+  }
+  

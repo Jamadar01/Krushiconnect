@@ -1,0 +1,75 @@
+/* src/components/Profile.css */
+
+.centered-box-personal-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures it covers the full viewport height */
+  }
+  
+  .inner-box-personal-info {
+    align-items: center;
+    width: 500px; /* Increase the width for a larger form */
+    height: 55vh; /* Increase the height for a larger form */
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #77e275;
+    box-shadow: 10px 10px 20px black;
+  }
+  
+  .form-group-personal-info {
+    font-family: roboto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .a-personal-info {
+    text-align: center;
+    justify-content: center; /* Horizontally center the button */
+    align-items: center; /* Vertically center the button */
+  }
+  
+  .submit-personal-info_save:hover {
+    box-shadow: 5px 5px 10px rgb(255, 255, 255);
+  }
+  
+  .submit-personal-info_save {
+    text-align: center;
+    margin-top: 20px;
+    font-family: roboto;
+    border-radius: 2px;
+    color: #ffffff;
+    background-color: #333;
+    font-size: 20px; /* Increase font size */
+    width: 100px; /* Increase button width */
+    height: 50px; /* Increase button height */
+    cursor: pointer;
+    font-size:18px;
+      font-weight:700px;
+      border-radius:3px;
+      padding:12px 20px;
+      border-color: black;
+      font-family: roboto;
+  }
+  
+  .name-personal-info,
+  .image-personal-info,
+  .price-personal-info,
+  .info-personal-info {
+    font-family: roboto;
+    font-size: 18px; /* Increase font size for input fields */
+    font-weight: 500; /* Increase font weight */
+    border-radius: 3px; /* Slightly rounder corners */
+    margin-top: 20px;
+    color: black;
+    border-radius: 10px; /* Rounded corners */
+    text-align: center;
+    justify-content: center;
+  }
+  .createacc-head{
+    position:absolute;
+    top:0;
+    left:30rem;
+  }
+  

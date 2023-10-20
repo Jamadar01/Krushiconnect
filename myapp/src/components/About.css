@@ -1,0 +1,28 @@
+.about{
+    padding-left: 5rem;
+    padding-top: 5rem;
+    background-color: #ADDEAC;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.info_box{
+    margin-left: 5rem;
+    width:800px;
+    height:200px;
+    background:#FFFFFF;
+    border-radius: 50px;
+    box-shadow: 0px 1px 10px 1px black;
+    color: #3B5C2F;
+    text-align: center;
+
+}
+
+.info{
+    margin: 2rem;
+}
+.about_us{
+    font-size: 100px;
+    text-align: center;
+}

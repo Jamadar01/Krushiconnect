@@ -1,0 +1,89 @@
+.centered-box_sell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures it covers the full viewport height */
+  }
+  
+  .inner-box_sell {
+    align-items: center;
+    width: 28%;
+    height: 50vh;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #77e275;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .form-group_sell{
+    font-family: roboto;
+  }
+  .a_sell{
+    text-align: center;
+    justify-content: center; /* Horizontally center the button */
+    align-items: center; /* Vertically center the button */
+  }
+ 
+  .submit_sell{
+    /* text-align: center;
+    margin-top: 40px;
+    font-family: roboto;
+    border-radius: 8px;
+    color: #003300 ;
+    background-color: #ADDEAC;
+    font-size: 17px;
+    cursor: pointer; */
+    font-size:18px;
+    font-weight:700px;
+    border-radius:3px;
+    padding:12px 20px;
+    margin:50px;
+    border-color: black;
+    color:white;
+    background-color: #333;
+    font-family: roboto;
+  }
+  .name_sell{
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 50;
+    border-radius: 1px;
+    margin-top: 40px;
+    margin-left: 55px;
+    color: black;
+    /* background-color: #D3D3D3; */
+    border-radius: 8px; /* Rounded corners */
+  }
+  .image_sell{
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 50;
+    border-radius: 1px;
+    margin-top: 40px;
+    margin-left: 55px;
+    color: black;
+    /* background-color: #D3D3D3; */
+    border-radius: 8px; /* Rounded corners */
+  }
+  .price_sell{
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 50;
+    border-radius: 1px;
+    margin-top: 40px;
+    margin-left: 62px;
+    color: black;
+    /* background-color: #D3D3D3; */
+    border-radius: 8px; /* Rounded corners */
+  }
+  .info{
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 50;
+    border-radius: 1px;
+    margin-top: 40px;
+    margin-left: 18px;
+    color: black;
+    /* background-color: #D3D3D3; */
+    border-radius: 8px; /* Rounded corners */
+
+  }

@@ -1,0 +1,113 @@
+.centered-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh; 
+  position:absolute;
+  top:-3rem;
+  left: 32rem;
+  /* Ensures it covers the full viewport height */
+}
+
+.inner-box {
+  
+  height: 55vh;
+  padding: 20px;
+  width:60vh;
+  border: 1px solid #ccc;
+  background-color: #77e275;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.form-group b{
+  font-family: 'Times New Roman', Times, serif;
+  margin-top:25px;
+
+}
+.form-group {
+  font-family: 'Times New Roman', Times, serif;
+  margin-top:25px;
+  padding-top: 10px;
+}
+
+.submit{
+  /* font-family: roboto;
+  font-size: 15px;
+  font-weight: 50;
+  border-radius: 1px;
+  margin-top: 20px;
+  text-align: center;
+  color: black;
+  background-color: #D3D3D3;
+  justify-content: center; /* Horizontally center the button */
+  /* align-items: center; /* Vertically center the button */
+  /* border-radius: 5px; Rounded corners */
+
+  font-size:18 px;
+  font-weight:700px;
+  border-radius:3px;
+  padding:6px 20px;
+  margin:20px;
+  border-color: black;
+  color:white;
+  background-color: #333;
+  font-family: roboto;
+  margin-bottom:2px;
+  text-align: center;
+
+}
+.Sign_center{
+  text-align: center;
+}
+.submit:hover{
+  box-shadow: 5px 5px 10px rgb(255, 255, 255);
+}
+.create{
+  /* text-align: center;
+  margin-top: 20px;
+  font-family: roboto;
+  border-radius: 5px;
+  background-color: #D3D3D3;
+  font-size: 15px;
+  cursor: pointer; */
+  font-size:18 px;
+  font-weight:700px;
+  border-radius:3px;
+  padding:6px 20px;
+  margin:20px;
+  border-color: black;
+  color:white;
+  background-color: #333;
+  font-family: roboto;
+  margin-top: 10px;
+  text-align: center;
+}
+.create:hover{
+  box-shadow: 5px 5px 10px rgb(255, 255, 255);
+}
+
+
+.username{
+  width:375px;
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  
+
+}
+.line{
+  margin-top: 10px;
+  font-family: roboto;
+}
+.password{
+  width:375px;
+  height:30px;
+  border-radius: 5px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.welcome_head h3{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}

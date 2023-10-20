@@ -1,0 +1,65 @@
+/* EcommerceFooter.css */
+.ecommerce-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+  }
+  
+  .container_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-sections {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+  }
+  
+  .footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-payment {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .footer-payment h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-payment p {
+    margin: 0;
+  }
+  
+  .footer-payment img {
+    margin-left: 10px;
+    width: 30px;
+    height: 20px;
+  }
+  
