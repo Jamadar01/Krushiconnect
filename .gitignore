@@ -1,0 +1,25 @@
+# Ignore virtual environment folders (for Python/Django)
+venv/
+env/
+__pycache__/
+
+# Ignore database files
+db.sqlite3
+
+# Ignore Node.js dependencies (for React)
+node_modules/
+
+# Ignore compiled files
+*.pyc
+*.pyo
+__pycache__
+
+# Ignore local settings (for Django)
+local_settings.py
+
+# Ignore environment files
+.env
+
+# Ignore editor-specific files and folders
+.vscode/
+.idea/
